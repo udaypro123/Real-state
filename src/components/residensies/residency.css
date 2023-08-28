@@ -1,0 +1,105 @@
+.residenciesconatiner {
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.residencyparts {
+    height: 100%;
+    width: 70%;
+}
+
+.upperpart {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bestplaces {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: orange;
+}
+
+.popularResidencies {
+    font-size: 1.5rem;
+    color: rgb(14, 0, 168);
+    font-weight: 600;
+}
+
+
+.residencyCard {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.residencyCard:hover {
+    background-color: rgb(230, 230, 255);
+    border-radius: .6rem;
+    scale: 1.0125;
+}
+
+.residencyCard img {
+    height: 95%;
+    width: 100%;
+
+}
+
+.dollerandprice {
+    padding: .5rem 0rem;
+}
+
+.cardprice {
+    font-size: 1.3rem;
+    color: grey;
+}
+
+.cardname {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgb(0, 0, 142);
+}
+
+.carddetail {
+    font-size: 1rem;
+    color: rgb(187, 187, 187);
+    padding: .3rem;
+}
+
+.sliderbuttons{
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+
+@media only screen and (max-width: 200px) {
+
+    .residenciesconatiner {
+        height: 40rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    .residenciesconatiner {
+        height: 40rem;
+    }
+}
+
+@media only screen and (max-width: 750px){
+
+    .residenciesconatiner {
+        height: 40rem;
+    }
+}

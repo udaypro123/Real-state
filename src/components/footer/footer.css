@@ -1,0 +1,138 @@
+.footercontainer {
+    height: 12rem;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftfooterpannel {
+    height: 80%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.leftfooterpannel img {
+    height: 30%;
+    width: 18%;
+}
+
+.footerText {
+    color: grey;
+}
+
+
+.rigthtfooterpannel {
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.linksconatianeroffooter {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.linksconatianeroffooter a {
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 300px) {
+
+    .footercontainer {
+        height: 20rem;
+        flex-direction: column;
+     
+    }
+
+    .leftfooterpannel {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .rigthtfooterpannel {
+        height: 40%;
+        width: 100%;
+
+    }
+
+    .leftfooterpannel img {
+        height: 20%;
+        width: 30%;
+    }
+
+}
+@media only screen and (max-width: 600px) {
+
+    .footercontainer {
+        height: 20rem;
+        flex-direction: column;
+     
+    }
+
+    .leftfooterpannel {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .rigthtfooterpannel {
+        height: 40%;
+        width: 100%;
+
+    }
+
+    .leftfooterpannel img {
+        height: 20%;
+        width: 30%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+    .footercontainer {
+        height: 20rem;
+        flex-direction: column;
+     
+    }
+
+    .leftfooterpannel {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .rigthtfooterpannel {
+        height: 40%;
+        width: 100%;
+
+    }
+
+    .leftfooterpannel img {
+        height: 20%;
+        width: 30%;
+    }
+
+} 
